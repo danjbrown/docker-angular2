@@ -20,7 +20,7 @@ Run the image. Docker maps port 8080 inside the container to port 8000 on your m
 docker run -p 8000:8080 -d <docker_username>/docker-angular2
 ```
 
-List all containers to see where the container can be accessed. e.g. http://0.0.0.0:8000
+List all containers to see where the container can be accessed. e.g. http://localhost:8000
 ```
 docker ps
 ```
